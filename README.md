@@ -2,6 +2,7 @@
 GStreamer audio application, including initializing libraries, creating elements, packing elements together in a pipeline and playing this pipeline.
 
 Usage: audio-app <ogg-file>
+
 Example:
 ```
 ./audio-app file.ogg
