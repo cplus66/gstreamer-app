@@ -3,6 +3,7 @@ SRCS := $(wildcard *.c)
 BINS := $(SRCS:%.c=bin/%)
 
 CFLAGS=-Wall `pkg-config --cflags --libs gstreamer-1.0`
+CC=libtool --mode=link gcc
 
 # Tell make that the all target has every binary as a prequisite and tell make that it will not create an `all` file (see http://www.gnu.org/software/make/manual/make.html#Phony-Targets).
 .PHONY: all
