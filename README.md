@@ -34,5 +34,10 @@ GStreamer defines two pad directions: source pads and sink pads. This terminolog
 ## DeMUX
 A demuxer contains one sink pad, through which the muxed data arrives, and multiple source pads, one for each stream found in the container:
 
+## Required Library
+```
+sudo apt install -y libgstreamer1.0-dev libgtk-3-dev
+```
+
 ## Reference
 https://gstreamer.freedesktop.org/documentation/application-development/basics/helloworld.html?gi-language=c#
